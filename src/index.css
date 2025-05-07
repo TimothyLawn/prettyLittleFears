@@ -251,11 +251,17 @@ button:focus-visible {
     font-size: 1.5em;
     line-height: 1.0;
     text-decoration: none;
-    font-weight: 400;
     margin: 0;
     padding: 0 0 0.5em;
-    color: #747bff;
     text-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  .nav {
+    flex-direction: row;
+    padding: 1.2em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    gap: 1.5em;
+    justify-content: space-around;
   }
 
   .section-break {
