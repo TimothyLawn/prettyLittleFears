@@ -8,7 +8,7 @@ import { IoBusinessSharp } from "react-icons/io5";
 
 export default function Dashboard() {
     return (
-       <>
+       <section className="dashboard">
        <section className="nav">
         <section className="header">
         <Link className="business" to="/client"><IoBusinessSharp size={35}/></Link>
@@ -30,6 +30,6 @@ export default function Dashboard() {
        <About/>
        <ClientList/>
        <FormPage/>
-       </> 
+       </section> 
     )
 }

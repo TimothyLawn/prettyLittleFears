@@ -7,11 +7,11 @@ export default function ClientList() {
         return (
             <>
             
-            <div className="container" key={index}>
+            <div className="container" id="peeps" key={index}>
                 <h2 className="namer">{person.name}</h2>
                 <img className="person" src={person.image}/>
-                <h3>Age {person.age}</h3>
-                <h3>City {person.city}</h3>
+                <h3>{person.age}</h3>
+                <h3>{person.city}</h3>
                 <div className="hobbies">
                 {person.hobbies.map((hobby, index) => <h4 key={index}>{hobby}</h4>)}
               </div>

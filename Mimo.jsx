@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom";
-
+import { HiHomeModern } from "react-icons/hi2";
 export default function Client(){
     return(
          <>
           
-            <Link to="/">Back Home</Link>
+            <Link to="/"><HiHomeModern size={30} /></Link>
              <div className="headline"> </div>
              <h3>Drawing of <br/> <em>Earthrise</em></h3>
              <section className="moses">
