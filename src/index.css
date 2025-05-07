@@ -257,6 +257,7 @@ button:focus-visible {
   }
   .nav {
     flex-direction: row;
+    z-index: 1000;
     padding: 1.2em;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     width: 100%;
@@ -287,8 +288,6 @@ button:focus-visible {
     max-width: 95%;
     gap: 1.3em;
     padding: .8em;
-    margin-left: 0;
-    margin-right: 0;
     border: .8em solid #ffc86b;
     border-radius: 10em;
     overflow: hidden;
