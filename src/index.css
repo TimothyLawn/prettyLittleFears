@@ -284,15 +284,23 @@ button:focus-visible {
 
   .container {
     width: 55%;
-    max-width: 90%;
+    max-width: 95%;
     gap: 1.3em;
     padding: .8em;
-    font-size: .9rem;
     margin-left: 0;
     margin-right: 0;
     border: .8em solid #ffc86b;
     border-radius: 10em;
     overflow: hidden;
+  }
+ .cities {
+  font-size: 1rem
+ }
+  .namer {
+    font-size: 1.3rem
+  }
+  .paris {
+    font-size: .8rem
   }
 }
 
