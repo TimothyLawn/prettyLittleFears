@@ -5,7 +5,7 @@ export default function ClientList() {
 
     const population = people.map((person, index) => {
         return (
-            <>
+            <section className="client-list" >
             
             <div className="container" id="peeps" key={index}>
                 <h2 className="namer">{person.name}</h2>
@@ -16,7 +16,7 @@ export default function ClientList() {
                 {person.hobbies.map((hobby, index) => <h4 className="paris" key={index}>{hobby}</h4>)}
               </div>
             </div>
-            </>
+            </section>
         )
     })
     return(

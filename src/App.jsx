@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './../Dashboard';
 import ClientList from './../ClientList';
 import Client from "./../Mimo"
+import Tabular from "./components/Tabular"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/client" element={<ClientList/>}/>
         <Route path="/" element={<Dashboard />} />
         <Route path='/clientmimo' element={<Client/>}/>
+        <Route path='/tabular-form' element={<Tabular/>}/>
       </Routes>
     </Router>
   );

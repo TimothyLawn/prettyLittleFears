@@ -9,19 +9,14 @@ import { IoBusinessSharp } from "react-icons/io5";
 export default function Dashboard() {
     return (
        <section className="dashboard">
-       <section className="nav">
+       <nav className="nav">
         <section className="header">
         <Link className="business" to="/client"><IoBusinessSharp size={35}/></Link>
-        <Link className="navigate" to="/clientmimo"><IoImagesOutline size={32}/></Link>
-        <Link to="/clientmimo"><IoImagesOutline size={32}/></Link>
-        </section>
         <div className="card">3D Card</div>
-        <section className="header">
-        <Link to="/clientmimo"><IoImagesOutline size={27}/></Link>
-        <Link to="/clientmimo"><IoImagesOutline size={27}/></Link>
+        <Link className="navigate" to="/clientmimo"><IoImagesOutline size={32}/></Link>
+        <Link className="navigate" to="/tabular-form"> Table<IoImagesOutline size={32}/></Link>
         </section>
-       
-       </section>
+       </nav>
 
        
        <SectionBreak contact={"0907958313"}/>
